@@ -1,0 +1,105 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    background: linear-gradient(135deg,#3f2775,#ff6db8);
+    
+}
+.cont{
+ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+ 
+   position: relative;
+}
+.interface input::placeholder{
+    border: 1px;
+}
+.sub{
+ 
+  border-radius: 5px;
+    height: auto;
+    width: 23rem;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    background: rgba(255, 255, 255, 0.139);
+    backdrop-filter: blur(10px);
+}
+.interface{
+    background-color: aliceblue;
+    height:4rem;
+    width: 20rem;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+  
+   align-items: center;
+}
+.interface input{
+   margin-left: 12px;
+   border-radius: 5px;
+   background: transparent;
+   border: 1px;
+   padding: 6px;
+}
+.displays{
+    height: 3rem;
+    width: 20rem;
+    background-color: aliceblue;
+    margin-top: 2rem;
+    margin-left:1.2rem;
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-left: 9px;
+    width: 85%;
+    height: auto;
+    position: relative;
+}
+.interface button{
+    margin-left: 3rem;
+    border: none;
+    background-color: rgb(216, 103, 216);
+    padding: 5px;
+    padding-inline: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.interface button:hover{
+    opacity: 0.5;
+}
+ .customize{
+    float: right;
+    margin-top: 5px;
+    margin-right: 23px;
+    height: 23px;
+    cursor: pointer;
+    
+} 
+.visible{
+    visibility:visible;
+}
+.display{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+.display img{
+    margin: 8px;
+    height: 23px;
+    margin-right: 18px;
+}
+.display span{
+    margin-top: 9px;
+}
+.complete{
+    text-decoration: line-through;
+}
+.h1{
+    text-align: center;
+}
